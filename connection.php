@@ -1,10 +1,10 @@
 <?php
 
   function connection(){
-    $host = "localhost";
-    $username = "iamthedev";
-    $password = "orenodatabase69";
-    $database = "bccat_system";
+    $host = ""; // localhost for scratch
+    $username = ""; // username of server used 
+    $password = ""; // password of server used
+    $database = ""; // name of database
   
 
     $con = new mysqli($host, $username, $password, $database);
